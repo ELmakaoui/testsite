@@ -1,24 +1,53 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title> commencer la programmation html </title>
+<!DOCTYPE html>
+<html>
+	<head>
+	  <charset="UTF-8">
+	</head>
     <style>
-        h1 {
-            color:red;
-        }
-        h2 {
-            color:gray;
+        #titre1 {background-color:red;
         }
 
+      
+        #color {background-color:rgb(105, 81, 81)
+        }
+        #foot { 
+           color: rgb(255, 0, 0);
+        }
+        .box {   display:inline;
+                                }
+        .box div {
+            background-color: rgb(132, 150, 167);
+            border:solid 3px rgb(14, 13, 13);
+            width: 300px; 
+            display: inline-block;
+            }
+ 
     </style>
-</head>
-<body>
-    <h1> mon premier pogramme html </h1>
-    <h2>  <a href="https://www.google.com/">  mon deuxieme programme html </a></h2>
-    <p>
-    <img src="https://lamachinerie.org/wp-content/uploads/2019/06/github.jpg" width="800" /></p>
-&nbsp;
-</body>
+	<body>
+
+
+        
+           
+	  <h1 id="titre1">TP Méteo HTML</h1>
+      <div class="box">
+      <div> <p >  <h1 id="color"> Lyon</h1>
+                 <img src="noun_rain cloud_653384.png" width="70">
+           <h5 id="H1"> 3°C , Pluvieux</h5>   </p> </div> 
+
+
+           <div>  <p> <h1 id="H2">Paris</h1> 
+                <img src="noun_lightning cloud_653386.png" width="70">
+                <h5 id="H3"> 8°C , Orages</h5> </p> </div> 
+
+                <div>    <p> <h1 id="H4"> Rome  </h1>
+                <img src="noun_Crescent Moon Clouds_655904.png" width="70">
+                        <h5 id="H5"> 21°C , ensoleillé</h5> </p> </div> 
+
+                    </div>
+          <footer>
+        <p id="foot"> <h5> EL MAKAOUI ABDELGHAFOUR </h5> 
+        <p> <a href="https://thenounproject.com/nookfulloption/" > icones de méteo par Nook Fulloption </a> </p>
+    </footer>
+
+	</body>
 </html>
