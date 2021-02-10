@@ -1,0 +1,71 @@
+html {
+
+    background-color: rgb(191,220,208);
+}
+#titre1 {
+     background-color: rgb(213,235,228);
+     width:100%;
+   text-align: center;
+}
+    footer {
+        background-color:rgb(213,235,228);
+        scroll-padding-left: 5px 10px;
+        bottom: -100px;
+        position: relative;
+        text-align: center;
+
+                }
+
+
+    .city {background-color: rgb(224, 233, 203);
+    align-content: center;
+    position:relative;
+    color:rgb(44, 49, 49);
+    border:solid 3px rgb(14, 13, 13);
+    border-radius: 10px;
+    top:40px;
+    left:25px;
+     width: 300px; 
+     display: inline-block;
+     margin:10px;
+     text-align: center;
+        }
+
+    #city-selecte { 
+            
+
+width: 100%;
+border-radius: 5px;
+flex: auto;
+top:-200px;
+left:100px;
+
+    }
+
+#select-city {
+
+color:rgb(10, 10, 24);
+position:relative;
+top:-15px;
+font-family: 'Times New Roman', Times, serif;
+font-size:medium;
+font-weight: 200;
+font-style: unset;
+
+
+
+    }
+
+#demo {
+       
+background-color: rgb(151, 194, 176);
+position:relative;
+bottom: -180px;
+margin-left: 104px;
+border:solid 1px;
+border-radius: 2.5px;
+display: inline-block;
+
+
+}
+
